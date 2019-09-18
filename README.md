@@ -61,10 +61,10 @@ after the initial pass.
 
 ```
                               table   grid
-50x200-nums	                    543    798
+50x200-nums                     543    798
 50x200-nums-fixed.              523    656
 4x200-rich-content.             251    230
-5x500-rich-content-with-image	682    796
+5x500-rich-content-with-image   682    796
 
 ```
 
