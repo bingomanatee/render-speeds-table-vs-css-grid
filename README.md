@@ -5,12 +5,38 @@ of css grids vs. tables.
 
 ## The tests:
 
+The methodology of these tests was fairly simple:
+
+1. Generate a low-impact high-data target for both the grid and table.
+2. use ejs to render out HTML files with minimal CSS.
+3. render these files in the browser while logging performance.
+
+the cache was disabled during the trials, and the latest versions of Firefox(68.0.2 (64-bit)) 
+and Chrome (Version 76.0.3809.132 (Official Build) (64-bit)) were used on a 
+2017 iMac Pro running Mohave.
+
+### CSS notes
+
+Many of the visual qualities were NOT made the same to equalize the css being 
+applied to both cases. For instance vertical alignment and row height were 
+not controlled, and as a result the content does not look the same from
+grid to table in all cases. 
+
+Table cell width was controlled (where it was controlled) using nth-child
+notation; table column notation no longer seems effective. 
+
+CSS Grid used `.grid-template-columns` notation to define cell width. 
+
+Cells were bordered in both cases with 1px solid black; table borders were collapsed.
+
+The good news is that on a fast system, both browsers let you render large amounts
+of tabluar data efficiently regardless of your methodology. 
+
 ### Baseline: 50x200-nums
 
 This test has the least defined or stressful requirements of all:
 no predefined width, simple content. (although this may increase the times, 
 as without predefined width, entire columns must be considered as a unit)
-oveflow hidden;
 
 ### Fixed: 50x200-nums-fixed
 
