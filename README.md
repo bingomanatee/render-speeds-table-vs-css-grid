@@ -68,7 +68,7 @@ after the initial pass.
 
 ```
 
-![chrome graph](times/chrome rendering times.png)
+![chrome graph](https://github.com/bingomanatee/render-speeds-table-vs-css-grid/blob/master/times/chrome%20rendering%20times.png?raw=true)
 
 CASS Grid is , surprisingly, slower in nearly all categories; faster in 
 one of the real world scenarios. However the times ranged from 16% better to 
@@ -87,7 +87,7 @@ The "single number" result is that CSS Grid is 20% slower than Tables.
 
 ```
 
-![chrome graph](times/firefox rendering times.png)
+![chrome graph](https://github.com/bingomanatee/render-speeds-table-vs-css-grid/blob/master/times/firefox%20rendering%20times.png?raw=true)
 
 On Firefox the results were more extreme but due to one single 
 slow test (the last one) the net results are the same: 20% slower. 
