@@ -1,0 +1,9 @@
+<div class="grid grid-body">
+
+<%- include('gridHead') %>
+<%  _.range(0, rows).forEach((row) => {
+  _.range(0, cols)
+        .forEach((i) => {%><div class="grid-cell"><%- getBody(i) %></div><% }) %>
+<% }) // end row %>
+</div>
+

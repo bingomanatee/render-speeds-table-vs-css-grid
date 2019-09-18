@@ -1,0 +1,7 @@
+<thead>
+<% _.range(0, rows).forEach((j) => {%>
+<tr>
+    <% _.range(0, cols).forEach((i) => { %><td><%- getBody(i) %></td><% }); %>
+</tr>
+<% }) %>
+</thead>

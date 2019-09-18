@@ -1,0 +1,29 @@
+{
+  "name": "nums-fixed",
+  "rows": 200,
+  "cols": 50,
+  "tableWidth": "100%",
+  "cells": [
+    {
+      "body": {
+        "content": [
+          "random",
+          1,
+          1000
+        ]
+      },
+      "head": {
+        "content": [
+          "loremIpsum",
+          "words",
+          1
+        ]
+      },
+      "width": "50px",
+      "height": "auto",
+      "count": "*"
+    }
+  ],
+  "rowHeight": "auto",
+  "tableWidth": "100%"
+}

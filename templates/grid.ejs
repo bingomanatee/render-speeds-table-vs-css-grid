@@ -1,0 +1,30 @@
+<style>
+    .grid {
+        display: grid;
+        grid-tempate-rows: auto;
+        grid-template-columns: <% _.range(0, cells.length)
+        .forEach((cellIndex) => {
+          if (cellIndex === cells.length - 1) {
+            %> repeat(<%- cols - cells.length + 1 %>, <%- cells[cellIndex].width %>) <%
+         } else {
+         %> <%- cells[cellIndex].width %> <%
+         }
+        }) %>;
+    }
+    .grid > div {
+        border: 1px solid black;
+        padding: 2px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        overflow: hidden !important;
+    }
+    .block {
+        display: block;
+        border: 1px solid black;
+        padding: 3px;
+        margin: 3px;
+        color: red;
+    }
+</style>
+
+<%- include('gridBody') %>
+

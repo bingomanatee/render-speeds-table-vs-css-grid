@@ -1,0 +1,10 @@
+Chrome Rendering Times
+,total time,loading,scripting,rendering,painting,system
+50x200-nums.table,543,11,1,370,71,90
+50x200-nums.grid,798,14,1,466,215,102
+50x200-nums-fixed.table,523,11,1,372,55,84
+50x200-nums-fixed.grid,656,14,7,395,148,92
+4x200-rich-content.table,251,10,3,191,4,43
+4x200-rich-content.grid,230,8,1,178,6,37
+5x500-rich-content-with-image.table,682,32,2,524,12,112
+5x500-rich-content-with-image.grid,796,32,2,600,61,101

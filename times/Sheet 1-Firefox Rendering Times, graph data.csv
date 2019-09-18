@@ -1,0 +1,6 @@
+Firefox Rendering Times, graph data
+,table,grid
+50x200-nums,557,388
+50x200-nums-fixed,287,266
+4x200-rich-content,164,215
+5x500-rich-content-with-image,320,548

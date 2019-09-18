@@ -1,0 +1,86 @@
+{
+  "name": "rich-content-with-image",
+  "rows": 500,
+  "cols": 5,
+  "tableWidth": "100%",
+  "cells": [
+    {
+      "body": {
+        "content": [
+          "random",
+          1,
+          1000
+        ]
+      },
+      "head": {
+        "content": [
+          "loremIpsum",
+          "words",
+          1
+        ]
+      },
+      "width": "50px",
+      "height": "auto"
+    },
+    {
+      "body": {
+        "content": [
+          "random",
+          1,
+          1000
+        ]
+      },
+      "head": {
+        "content": [
+          "loremIpsum",
+          "words",
+          1
+        ]
+      },
+      "width": "50px",
+      "height": "auto"
+    },
+    {
+      "body": {
+        "content": [
+          "loremIpsum",
+          "sentences",
+          6
+        ]
+      },
+      "head": {
+        "content": "sentences"
+      },
+      "width": "300px",
+      "height": "auto"
+    },
+    {
+      "body": {
+        "content": [
+          "richParagraphs",
+          "sentences",
+          6
+        ]
+      },
+      "head": {
+        "content": "sentences"
+      },
+      "width": "300px",
+      "height": "auto"
+    },
+    {
+      "body": {
+        "content": [
+          "images",
+          "kittens"
+        ]
+      },
+      "head": {
+        "content": "sentences"
+      },
+      "width": "auto",
+      "height": "auto"
+    }
+  ],
+  "rowHeight": "auto"
+}

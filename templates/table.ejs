@@ -1,0 +1,30 @@
+<style>
+    .basic {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: <%- tableWidth %>;
+    }
+    .basic th, .basic td {
+        border: 1px solid black;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 2px;
+        overflow: hidden !important;
+    }
+    .block {
+        display: block;
+        border: 1px solid black;
+        padding: 3px;
+        margin: 3px;
+        color: red;
+    }
+    <% _.range(0, cols).forEach((c) => { %>
+    .basic tr>:nth-child(<%= c + 1 %>) {
+            width: <%= getColWidth(c) %>;
+        }
+    <% }) %>
+    </style>
+<table class="basic">
+    <%- include('tableHead', { _, cols, rows, getHead}) %>
+    <%- include('tableBody', { _, cols, rows, getBody}) %>
+
+</table>
