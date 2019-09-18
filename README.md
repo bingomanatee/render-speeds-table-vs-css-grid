@@ -87,7 +87,7 @@ The "single number" result is that CSS Grid is 20% slower than Tables.
 
 ```
 
-![chrome graph](https://github.com/bingomanatee/render-speeds-table-vs-css-grid/blob/master/times/firefox%20rendering%20times.png?raw=true)
+![firefox graph](https://github.com/bingomanatee/render-speeds-table-vs-css-grid/blob/master/times/firefox%20renderint%20times.png?raw=true)
 
 On Firefox the results were more extreme but due to one single 
 slow test (the last one) the net results are the same: 20% slower. 
