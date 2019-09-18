@@ -60,11 +60,11 @@ after the initial pass.
 ## Results: Chrome
 
 ```
-                          	table	grid
-50x200-nums	                    543  798
-50x200-nums-fixed	            523  656
-4x200-rich-content	            251  230
-5x500-rich-content-with-image	682  796
+                              table   grid
+50x200-nums	                    543    798
+50x200-nums-fixed.              523    656
+4x200-rich-content.             251    230
+5x500-rich-content-with-image	682    796
 
 ```
 
